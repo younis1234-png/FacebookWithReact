@@ -1,11 +1,10 @@
 .app {
-    background-color: #f1f2f5;
-    height: 100vh;
-  }
-  
-  .app__body {
-    display: flex;
-    top: -100px;
-    background-color: #f1f2f5;
+  background-color: #f1f2f5;
+}
 
-  }
+.app__body {
+  display: flex;
+  background-color: #f1f2f5;
+  max-width: 100%;
+  overflow-x: hidden;
+}
